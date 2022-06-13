@@ -51,17 +51,6 @@ public class Main {
             default:
                 System.out.println("La estación es :"+estacion);
                 break;
-
         }
-
-
-
-
-
-
-
     }
-
-
-
 }
