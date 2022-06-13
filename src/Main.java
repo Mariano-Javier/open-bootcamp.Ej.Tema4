@@ -25,10 +25,9 @@ public class Main {
         while(numeroWhile<3);
 
         //parte 4: for.
-        int numeroFor = 0;
-        for (int i=0; i<=3;i++){
+
+        for (int numeroFor=0; numeroFor<=3;numeroFor++){
             System.out.println("El número es :"+numeroFor);
-            numeroFor++;
         }
         //parte 5: switch.
 
@@ -49,7 +48,7 @@ public class Main {
                 System.out.println("La estación es :"+estacion);
                 break;
             default:
-                System.out.println("La estación es :"+estacion);
+                System.out.println("No es una estación");
                 break;
         }
     }
